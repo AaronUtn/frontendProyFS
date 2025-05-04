@@ -4,7 +4,7 @@ const HomePage = (props) => {
   return (
     <main>
       <div>
-        <img src="img/home/img01.jpg" alt="avion"></img>
+        <img className="imagen" src="img/home/img01.jpg" alt="avion"></img>
       </div>
       <div className="columnas">
         <div className="bienvenidos left">
@@ -23,7 +23,7 @@ const HomePage = (props) => {
           <h2>Testimonios</h2>
           <div className="testimonio">
             <span className="cita">Simplemente excelente</span>
-            <span className="autor">Juan Peres</span>
+            <span className="autor">Juan Perez</span>
           </div>
         </div>
       </div>
